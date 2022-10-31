@@ -1,0 +1,27 @@
+body {
+    color: aliceblue;
+    background: linear-gradient(130deg, rgba(14,11,29,1) 0%, rgba(89,9,101,1) 38%, rgba(95,7,128,1) 59%, rgba(20,2,131,1) 100%);
+}
+
+p, h1 {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Comic Sans MS";
+}
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
