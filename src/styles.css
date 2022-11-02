@@ -32,7 +32,10 @@ fieldset {
   }
 
   .musicHub {
-    top: 500px;
+    position: relative;
+    top: -55px;
+    font-family: "ink free";
+    font-size: 30px;
   }
 
   .main-image {
@@ -51,6 +54,7 @@ fieldset {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    right: 10px;
   }
   
   .main-text button {
@@ -77,4 +81,12 @@ fieldset {
     height: auto;
     width: auto;
     padding: auto;
+  }
+
+  .aboutMe {
+    position: relative;
+    padding: 40px;
+    background: #321e38;
+    text-align: left;
+    height: -55px;
   }
