@@ -18,9 +18,16 @@
             <label for="email">Enter Your Email: <input type="email" required/></label>
         </fieldset>
         <fieldset>
-            <label for="username">Create username: <input type="text" pattern="[a-z0-9]{4,}" required/></label>
-            <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-9]{8,}" name="password" required/></label>
+            <label for="username">Create username: <input type="text" pattern="[a-z0-9]{4,}" placeholder="Must contain 4 character" required/></label>
+            <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-9]{8,}" name="password" placeholder="Must contain 8 characters" required/></label>
             <label for="terms-and-conditions"><input type="checkbox" required class="inline"> I accept the <a href="terms.html">terms and conditions</a></label>
+        </fieldset>
+        <fieldset>
+            <label for="refer">How did you hear about us? : </label>
+            <label for="news"><input id="news" type="radio" name="referrer" class="inline">News</label>
+            <label for="youtube"><input id="youtube" type="radio" name="referrer" class="inline">YouTube</label>
+            <label for="forum"><input id="forum" type="radio" name="referrer" class="inline">Forum</label>
+            <label for="other"><input id="other" type="radio" name="referrer" class="inline">Other</label>
         </fieldset>
         <input type="submit" value="Create">
     </form>

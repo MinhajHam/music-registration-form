@@ -3,9 +3,61 @@ body {
   height: 100vh;
   color: aliceblue;
   background-color: rgb(40, 0, 75);
-  font-family: "Segoe UI Light";
+  font-family: Tahoma;
+  font-size: 16px;
 }
 
 h1, p {
   text-align: center;
 }
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+
+label {
+  display: block;
+  width: 100%;
+  min-height: 2rem;
+}
+
+input {
+  background-color: rgb(24, 0, 46);
+  border: 1px solid rgb(24, 0, 46);
+  color: aliceblue;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="submit"] {
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(24, 0, 46);
+  color: white;
+}
+
+a {
+  color: aliceblue;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
