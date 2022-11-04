@@ -47,17 +47,16 @@ fieldset {
 }
 
 .main-text button {
-  border: none;
-  outline: 0;
   display: inline-block;
-  padding: 10px 40px;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
   color: white;
   background-color: #555;
-  text-align: center;
-  cursor: pointer;
+  border: #555;
   border-radius: 10px;
   opacity: 0.8;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .main-text button:hover {
