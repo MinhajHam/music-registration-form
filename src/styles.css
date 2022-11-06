@@ -84,3 +84,8 @@ fieldset {
   font-size: 20px;
   text-align: center;
 }
+
+.aboutMe {
+  padding: 20px;
+  background: rgb(47, 37, 54);
+}
