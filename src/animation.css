@@ -5,22 +5,9 @@
 .wrapper {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, #000000, #220915, #390a28, #4e0841, #5e0960, #640973, #670e88, #66179f, #6314a9, #5f13b3, #5912be, #5112c9);
-  position: absolute;
+  position: static;
 }
-.wrapper h1 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  font-family: sans-serif;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-  color: #fff;
-  font-size: 40px;
-  font-weight: 888;
-  text-transform: uppercase;
-}
+
 .wrapper div {
   height: 60px;
   width: 60px;
