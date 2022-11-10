@@ -1,12 +1,19 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   color: rgb(229, 198, 241);
   background: rgb(22,0,29);
   background: linear-gradient(to bottom, #000000, #220915, #390a28, #4e0841, #5e0960, #640973, #670e88, #66179f, #6314a9, #5f13b3, #5912be, #5112c9);
 }
 
-body, html {
-  height: 100%;
+.bottomHalf {
+  background-image: linear-gradient(to bottom, #000000, #220915, #390a28, #4e0841, #5e0960, #640973, #670e88, #66179f, #6314a9, #5f13b3, #5912be, #5112c9);
+  min-height: 50%;
   margin: 0;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -22,10 +29,8 @@ h2 {
   text-align: center;
 }
 
-fieldset { 
-  border: #555;
-  padding: 2rem 0;
-  border-bottom: 3px solid #3b3b4f;
+a {
+  color: rgb(77, 17, 117);
 }
 
 .main-image {
@@ -76,7 +81,8 @@ fieldset {
   max-width: 850px;
   min-width: 300px;
   margin: 0 auto;
-  padding: 25px;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .content1, .content2 {
@@ -87,29 +93,22 @@ fieldset {
   margin-bottom: 5px;
 }
 
-.bottomHalf {
-  background-image: linear-gradient(to bottom, #000000, #220915, #390a28, #4e0841, #5e0960, #640973, #670e88, #66179f, #6314a9, #5f13b3, #5912be, #5112c9);
-  height: 50%;
-  background-repeat: no-repeat;
-
-}
-
 .about {
   color: rgb(0, 0, 0);
   width: 80vw;
   max-width: 850px;
   min-width: 300px;
   border-radius: 35px;
-  padding: 15px;
+  padding: 10px;
   background: rgb(0, 0, 0);
   text-align: center;
   margin: auto;
-  opacity: 0.9;
+  margin-bottom: 25px;
 }
 
 .aboutMe {
   padding: 3px;
-  background-color: rgb(59, 0, 99);
+  background-color: rgb(77, 17, 117);
   width: 40%;
   margin: auto;
   border-radius: 15px;
@@ -118,13 +117,11 @@ fieldset {
 .fa {
   padding: 10px;
   font-size: 30px;
-  width: 50px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px 40px;
   border-radius: 10px;
-  display: inline-block;
-  
 }
 
 .fa:hover {
