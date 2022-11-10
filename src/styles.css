@@ -23,7 +23,7 @@ h2 {
 }
 
 fieldset { 
-  border: none;
+  border: #555;
   padding: 2rem 0;
   border-bottom: 3px solid #3b3b4f;
 }
@@ -76,24 +76,57 @@ fieldset {
   max-width: 850px;
   min-width: 300px;
   margin: 0 auto;
-  padding-bottom: 2em;
+  padding: 25px;
 }
 
 .content1, .content2 {
   font-family: "Comic Sans MS";
   font-size: 20px;
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .bottomHalf {
   background-image: linear-gradient(to bottom, #000000, #220915, #390a28, #4e0841, #5e0960, #640973, #670e88, #66179f, #6314a9, #5f13b3, #5912be, #5112c9);
   height: 50%;
-  background-position: center;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+
+}
+
+.about {
+  color: rgb(0, 0, 0);
+  width: 80vw;
+  max-width: 850px;
+  min-width: 300px;
+  border-radius: 35px;
+  padding: 15px;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  margin: auto;
+  opacity: 0.9;
 }
 
 .aboutMe {
+  padding: 3px;
+  background-color: rgb(59, 0, 99);
+  width: 40%;
+  margin: auto;
   border-radius: 15px;
-  padding: 20px;
-  background: rgb(20, 0, 32);
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 40px;
+  border-radius: 10px;
+  display: inline-block;
+  
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
