@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: 100vh;
   color: aliceblue;
-  background-color: rgb(69, 0, 75);
+  background-color: rgb(27, 20, 27);
 }
 
 p {
@@ -23,4 +23,21 @@ h1, h2 {
   min-width: 300px;
   margin: 0 auto;
   padding-bottom: 2em;
+}
+
+.submitCss {
+  height: 100%;
+  background: linear-gradient(to bottom, #000000, #220915, #390a28, #4e0841, #5e0960, #640973, #670e88, #66179f, #6314a9, #5f13b3, #5912be, #5112c9);
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  top: 40%;
+  font-family: "Cascadia Mono Semilight";
 }
