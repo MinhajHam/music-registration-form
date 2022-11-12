@@ -35,7 +35,7 @@ a {
 }
 
 .main-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/top-image.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/top-image.jpeg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
